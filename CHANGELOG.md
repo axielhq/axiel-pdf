@@ -8,6 +8,7 @@ As mudancas importantes do Axiel PDF sao documentadas neste arquivo.
 
 - Ajuste do posicionamento da marca Axiel em portugues brasileiro.
 - Revisao do README, contribuicao, seguranca e roadmap para alinhar o repositorio como vitrine profissional.
+- Reestruturacao do README do Axiel PDF para uma apresentacao mais forte no GitHub, com abertura, navegacao rapida e separacao mais clara entre recursos atuais e evolucao planejada.
 
 ## [1.0.2] - 2026-04-26
 
