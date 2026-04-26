@@ -10,6 +10,7 @@ As mudancas importantes do Axiel PDF sao documentadas neste arquivo.
 - Revisao do README, contribuicao, seguranca e roadmap para alinhar o repositorio como vitrine profissional.
 - Reestruturacao do README do Axiel PDF para uma apresentacao mais forte no GitHub, com abertura, navegacao rapida e separacao mais clara entre recursos atuais e evolucao planejada.
 - Refinada a apresentacao do README com titulo mais forte, badges tecnicas, links rapidos e secoes em estilo vitrine adaptadas ao Axiel PDF.
+- Adicionado banner visual do Axiel PDF no topo do README e reduzida a densidade dos blocos textuais para uma leitura mais limpa.
 
 ## [1.0.2] - 2026-04-26
 
