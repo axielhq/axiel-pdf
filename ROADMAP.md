@@ -1,14 +1,16 @@
-# Roadmap
+# Roadmap do Axiel PDF
 
-Este roadmap organiza a evolucao planejada do Axiel PDF como ferramenta para fluxos documentais, organizacao de arquivos e automacao com IA.
+**Direcao planejada para a evolucao do produto.**
 
-O objetivo nao e prometer uma plataforma pronta, e sim deixar claro o caminho esperado para o produto.
+Este roadmap organiza os proximos passos do Axiel PDF como ferramenta para fluxos documentais, organizacao de arquivos e automacao com IA.
 
-## Direcao do projeto
+O objetivo deste documento nao e prometer entregas fechadas, e sim registrar a direcao atual do produto com base no que faz sentido para o projeto e para os usos profissionais que ele pretende atender.
+
+## Visao geral
 
 O Axiel PDF foi pensado para ajudar empresas e profissionais que precisam lidar com grandes volumes de documentos, reduzir trabalho manual e estruturar processos internos com mais consistencia.
 
-As frentes principais de evolucao sao:
+As frentes principais de evolucao hoje sao:
 
 - automacao de documentos
 - OCR e extracao de texto
@@ -17,7 +19,7 @@ As frentes principais de evolucao sao:
 - organizacao de arquivos
 - produtividade em fluxos internos
 
-## Base atual
+## Base atual do projeto
 
 O aplicativo desktop atual ja entrega:
 
@@ -27,9 +29,11 @@ O aplicativo desktop atual ja entrega:
 - visualizacao ampliada
 - base modular para evolucao do produto
 
-## Proximas etapas
+## Frentes prioritarias
 
 ### 1. Consolidacao do fluxo principal
+
+Objetivo: deixar o fluxo atual de uniao de PDFs mais robusto, previsivel e seguro.
 
 - validacao mais robusta de PDFs invalidos ou corrompidos
 - tratamento mais claro de erros no merge
@@ -38,12 +42,16 @@ O aplicativo desktop atual ja entrega:
 
 ### 2. OCR e extracao de texto
 
+Objetivo: preparar o produto para trabalhar melhor com documentos digitalizados e conteudo textual.
+
 - extracao de texto de PDFs digitalizados
 - identificacao de paginas sem texto
 - tratamento de falhas de OCR
 - base para processamento em portugues
 
 ### 3. Automacao com IA
+
+Objetivo: apoiar tarefas de organizacao, classificacao e leitura documental sem depender apenas de operacao manual.
 
 - sugestao de nomes de arquivos
 - organizacao de lotes documentais
@@ -52,6 +60,8 @@ O aplicativo desktop atual ja entrega:
 
 ### 4. Organizacao e validacao documental
 
+Objetivo: ampliar a capacidade de revisao e controle sobre grandes volumes de arquivos.
+
 - deteccao de arquivos duplicados
 - identificacao de paginas em branco
 - validacao textual
@@ -59,11 +69,15 @@ O aplicativo desktop atual ja entrega:
 
 ### 5. Solucoes sob demanda
 
+Objetivo: usar o Axiel PDF como base para adaptacoes praticas conforme necessidade operacional de cada caso.
+
 - fluxos personalizados para empresas
 - integracoes com bots e processos internos
 - automacoes documentais especificas
 - adaptacoes conforme necessidade operacional
 
-## Observacao
+## Criterio de prioridade
 
 As prioridades podem mudar conforme o projeto evoluir, conforme surgirem demandas reais e conforme a Axiel organizar melhor os proximos passos da linha de ferramentas.
+
+Por isso, este roadmap deve ser lido como direcao de produto, nao como garantia de cronograma fechado.
