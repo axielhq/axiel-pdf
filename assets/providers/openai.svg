@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="OpenAI">
+  <rect width="256" height="256" rx="56" fill="#111111"/>
+  <g fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M128 43c25 0 45 20 45 45 0 8-2 16-6 23"/>
+    <path d="M170 76c22 12 30 39 18 61-4 8-11 15-19 19"/>
+    <path d="M188 136c0 25-20 45-45 45-8 0-16-2-23-6"/>
+    <path d="M128 213c-25 0-45-20-45-45 0-8 2-16 6-23"/>
+    <path d="M86 180c-22-12-30-39-18-61 4-8 11-15 19-19"/>
+    <path d="M68 120c0-25 20-45 45-45 8 0 16 2 23 6"/>
+    <path d="M100 104l56 32"/>
+    <path d="M156 104l-56 32"/>
+    <path d="M128 87v82"/>
+  </g>
+</svg>
