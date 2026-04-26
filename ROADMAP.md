@@ -1,142 +1,69 @@
 # Roadmap
 
-Este roadmap apresenta a visão inicial de evolução do Axiel PDF.
+Este roadmap organiza a evolucao planejada do Axiel PDF como ferramenta para fluxos documentais, organizacao de arquivos e automacao com IA.
 
-O objetivo do projeto é se tornar uma ferramenta open source para automação inteligente de documentos PDF em grande volume, com recursos de OCR, IA, organização, validação e processamento local.
+O objetivo nao e prometer uma plataforma pronta, e sim deixar claro o caminho esperado para o produto.
 
----
+## Direcao do projeto
 
-## Visão do Projeto
+O Axiel PDF foi pensado para ajudar empresas e profissionais que precisam lidar com grandes volumes de documentos, reduzir trabalho manual e estruturar processos internos com mais consistencia.
 
-O Axiel PDF foi pensado para ajudar usuários e empresas a lidar com grandes quantidades de arquivos PDF de forma mais rápida, organizada e inteligente.
+As frentes principais de evolucao sao:
 
-O foco principal é reduzir trabalho manual em fluxos como:
+- automacao de documentos
+- OCR e extracao de texto
+- renomeacao inteligente
+- deteccao de duplicidade
+- organizacao de arquivos
+- produtividade em fluxos internos
 
-- juntar muitos PDFs
-- organizar documentos escaneados
-- extrair texto via OCR
-- renomear arquivos com apoio de IA
-- detectar documentos duplicados
-- identificar possíveis erros de texto
-- preparar lotes de documentos para arquivamento ou revisão
+## Base atual
 
----
+O aplicativo desktop atual ja entrega:
 
-## v0.1.0 — Fundação
+- uniao local de PDFs
+- lista de documentos com ordenacao
+- pre-visualizacao
+- visualizacao ampliada
+- base modular para evolucao do produto
 
-Objetivo: criar a base técnica inicial do projeto.
+## Proximas etapas
 
-- [ ] Estrutura inicial em Python
-- [ ] Organização de pastas do projeto
-- [ ] Configuração básica de ambiente
-- [ ] Protótipo de união de PDFs
-- [ ] Leitura de arquivos em lote
-- [ ] Tratamento inicial de erros
-- [ ] README inicial do projeto
-- [ ] Licença GPLv3
-- [ ] Arquivos de comunidade e segurança
+### 1. Consolidacao do fluxo principal
 
----
+- validacao mais robusta de PDFs invalidos ou corrompidos
+- tratamento mais claro de erros no merge
+- melhoria de mensagens e estados da interface
+- reducao de riscos em sobrescrita de arquivos
 
-## v0.2.0 — Processamento de PDFs em lote
+### 2. OCR e extracao de texto
 
-Objetivo: permitir fluxo sólido para grandes volumes de PDFs.
+- extracao de texto de PDFs digitalizados
+- identificacao de paginas sem texto
+- tratamento de falhas de OCR
+- base para processamento em portugues
 
-- [ ] Seleção de múltiplos arquivos PDF
-- [ ] Ordenação de arquivos antes da união
-- [ ] União de PDFs em grande volume
-- [ ] Validação de arquivos PDF inválidos ou corrompidos
-- [ ] Prevenção contra sobrescrita acidental
-- [ ] Relatório básico do processamento
-- [ ] Logs de sucesso e erro
+### 3. Automacao com IA
 
----
+- sugestao de nomes de arquivos
+- organizacao de lotes documentais
+- apoio a classificacao e triagem
+- leitura de sinais uteis no texto extraido
 
-## v0.3.0 — OCR e extração de texto
+### 4. Organizacao e validacao documental
 
-Objetivo: extrair conteúdo textual de PDFs digitalizados.
+- deteccao de arquivos duplicados
+- identificacao de paginas em branco
+- validacao textual
+- apoio a revisao de documentos
 
-- [ ] Integração com OCR
-- [ ] Extração de texto de PDFs escaneados
-- [ ] Exportação do texto extraído
-- [ ] Identificação de páginas sem texto
-- [ ] Tratamento de falhas de OCR
-- [ ] Suporte inicial a português
-- [ ] Suporte inicial a inglês
+### 5. Solucoes sob demanda
 
----
+- fluxos personalizados para empresas
+- integracoes com bots e processos internos
+- automacoes documentais especificas
+- adaptacoes conforme necessidade operacional
 
-## v0.4.0 — Renomeação inteligente com IA
+## Observacao
 
-Objetivo: sugerir nomes de arquivos com base no conteúdo dos documentos.
-
-- [ ] Análise do texto extraído
-- [ ] Sugestão de nomes de arquivos com IA
-- [ ] Pré-visualização antes de renomear
-- [ ] Regras de nomes seguros para arquivos
-- [ ] Histórico de alterações
-- [ ] Opção de desfazer renomeações
-
----
-
-## v0.5.0 — Detecção de duplicidade
-
-Objetivo: identificar documentos repetidos ou muito semelhantes.
-
-- [ ] Detecção por hash de arquivo
-- [ ] Detecção por conteúdo extraído
-- [ ] Identificação de PDFs idênticos
-- [ ] Identificação de documentos semelhantes
-- [ ] Relatório de duplicidade
-- [ ] Opção de revisar antes de remover ou mover arquivos
-
----
-
-## v0.6.0 — Validação textual
-
-Objetivo: apoiar revisão de texto e qualidade dos documentos.
-
-- [ ] Verificação de possíveis erros de ortografia
-- [ ] Validação de texto extraído
-- [ ] Identificação de documentos com OCR ruim
-- [ ] Relatório de inconsistências
-- [ ] Suporte a dicionários personalizados
-
----
-
-## v1.0.0 — Primeira versão estável
-
-Objetivo: entregar uma versão utilizável, documentada e confiável.
-
-- [ ] Fluxo principal estável
-- [ ] Interface CLI ou interface gráfica inicial
-- [ ] Documentação para usuários
-- [ ] Documentação para desenvolvedores
-- [ ] Testes automatizados
-- [ ] Releases versionadas no GitHub
-- [ ] Guia de instalação
-- [ ] Guia de uso
-- [ ] Exemplos práticos
-
----
-
-## Futuro
-
-Ideias futuras para o ecossistema Axiel PDF:
-
-- [ ] Interface desktop
-- [ ] Interface web local
-- [ ] API para automações
-- [ ] Integração com Axiel AI
-- [ ] Integração com Axiel File
-- [ ] Perfis de processamento
-- [ ] Processamento em fila
-- [ ] Exportação de relatórios em CSV, JSON ou PDF
-- [ ] Plugins para fluxos personalizados
-- [ ] Versão comercial com suporte e integração empresarial
-
----
-
-## Observação
-
-Este roadmap pode mudar conforme o desenvolvimento evolui, novas necessidades forem identificadas e contribuições da comunidade forem recebidas.
+As prioridades podem mudar conforme o projeto evoluir, conforme surgirem demandas reais e conforme a Axiel organizar melhor os proximos passos da linha de ferramentas.

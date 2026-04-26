@@ -1,46 +1,36 @@
-# Contributing to Axiel PDF
+# Contribuindo com o Axiel PDF
 
-Thank you for your interest in contributing to Axiel PDF.
+Obrigado pelo interesse em contribuir com o Axiel PDF.
 
-Axiel PDF is an open source Python project focused on AI-powered PDF automation for high-volume document workflows.
+Este repositorio faz parte da vitrine tecnica da Axiel e documenta a evolucao de uma ferramenta para automacao de PDFs, OCR, organizacao de arquivos e fluxos documentais com apoio de IA.
 
-The project is currently in early development. Contributions will be welcome as the structure becomes more stable.
+O projeto ainda esta em desenvolvimento inicial. Contribuicoes externas sao bem-vindas, mas o foco principal deste repositorio e consolidar a base tecnica do produto.
 
----
+## Formas de contribuir
 
-## Project Goals
+- Reportar bugs
+- Sugerir melhorias objetivas
+- Melhorar documentacao
+- Ajudar na cobertura de testes
+- Propor ajustes em fluxos de processamento de PDF
 
-Axiel PDF aims to provide tools for:
+## Antes de abrir uma contribuicao
 
-- Bulk PDF merging
-- OCR text extraction
-- AI-assisted file renaming
-- Duplicate PDF detection
-- Spelling and text validation
-- High-volume document processing
-- Local-first PDF automation
+- Verifique se a mudanca faz sentido para o escopo atual do projeto.
+- Evite propor recursos que contradigam a natureza desktop e local do app sem alinhamento previo.
+- Diferencie claramente o que ja existe do que ainda esta planejado.
 
----
+## Fluxo recomendado
 
-## How to Contribute
+1. Faca um fork do repositorio.
+2. Crie uma branch para a mudanca.
+3. Implemente a alteracao com escopo claro.
+4. Atualize a documentacao necessaria.
+5. Descreva a motivacao e o impacto da mudanca no pull request.
 
-You can contribute by:
+## Diretrizes
 
-- Reporting bugs
-- Suggesting features
-- Improving documentation
-- Writing tests
-- Improving PDF processing workflows
-- Improving OCR workflows
-- Improving duplicate detection
-- Improving AI-assisted renaming
-
----
-
-## Development Workflow
-
-1. Fork the repository.
-2. Create a new branch:
-
-```bash
-git checkout -b feature/my-feature
+- Preserve a funcionalidade existente.
+- Evite refatoracoes grandes sem necessidade clara.
+- Nao introduza dependencias novas sem justificativa.
+- Mantenha o projeto coerente com o posicionamento da Axiel: ferramentas praticas, automacoes e solucoes com IA para fluxos reais de trabalho.

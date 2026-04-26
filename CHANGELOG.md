@@ -1,130 +1,127 @@
 # Changelog
 
-All important changes to Axiel PDF are documented in this file.
+As mudancas importantes do Axiel PDF sao documentadas neste arquivo.
 
 ## [Unreleased]
 
-### Planned
+### Documentacao
 
-- OCR text extraction.
-- AI-assisted file organization and renaming.
-- Duplicate PDF detection.
-- Text validation and document intelligence workflows.
-- Automated tests.
+- Ajuste do posicionamento da marca Axiel em portugues brasileiro.
+- Revisao do README, contribuicao, seguranca e roadmap para alinhar o repositorio como vitrine profissional.
 
 ## [1.0.2] - 2026-04-26
 
-### Changed
+### Alterado
 
-- Set the public application version to `1.0.2`.
-- Added the current PyQt6 desktop application source.
-- Added the startup dialog, about dialog and institutional footer.
-- Added the local Axiel PDF logo and provider icons.
-- Added GPLv3 license, project README and Git ignore rules.
+- Definida a versao publica da aplicacao como `1.0.2`.
+- Adicionado o codigo-fonte atual da aplicacao desktop em PyQt6.
+- Adicionadas a tela inicial, a secao sobre e o rodape institucional.
+- Adicionados os assets visuais atuais do projeto.
+- Adicionados `LICENSE`, `README.md` e `.gitignore`.
 
-## Local Implementation History
+## Historico local de implementacao
 
-The entries below document the local desktop application work that preceded the first public source push.
+As entradas abaixo registram a evolucao local da aplicacao antes da primeira publicacao do codigo-fonte no GitHub.
 
-### Version 2.8 - Institutional Footer
+### Versao 2.8 - Rodape institucional
 
-- Added copyright and GPLv3 text to the main window footer.
+- Adicionado texto discreto de copyright e GPLv3 no rodape da janela principal.
 
-### Version 2.7 - Startup Screen
+### Versao 2.7 - Tela inicial
 
-- Added a startup dialog shown when opening the application.
-- Added the Axiel PDF logo as a local asset.
-- Added an `Entrar` button before the main window is shown.
+- Adicionada tela inicial modal exibida na abertura do aplicativo.
+- Adicionado o logo do Axiel PDF como asset local.
+- Adicionado o botao `Entrar` antes da janela principal.
 
-### Version 2.6 - About Dialog
+### Versao 2.6 - Secao Sobre
 
-- Added a `Sobre` button to the top bar.
-- Added product description, Axiel attribution, GPLv3 notice, version and GitHub link.
+- Adicionado o botao `Sobre` na barra superior.
+- Adicionado modal com descricao do produto, autoria da Axiel, licenca GNU GPL v3.0, versao e link do GitHub.
 
-### Version 2.5 - Zebra List Cleanup
+### Versao 2.5 - Limpeza visual da lista
 
-- Removed boxed backgrounds around document names and metadata.
-- Kept row-level zebra backgrounds.
+- Removido o fundo em caixa ao redor dos textos de nome e metadados.
+- Mantidas as faixas zebra por linha.
 
-### Version 2.4 - Zebra List Without Grid Lines
+### Versao 2.4 - Lista zebra sem grade
 
-- Removed vertical and horizontal grid lines from the PDF list.
-- Kept alternating row colors, selection and move highlight states.
+- Removidas as linhas internas verticais e horizontais da lista.
+- Mantidos os estados de selecao e destaque de movimentacao.
 
-### Version 2.3 - Rebuilt List Layout
+### Versao 2.3 - Reconstrucao da lista
 
-- Rebuilt the PDF row layout with fixed columns.
-- Aligned document information and actions.
-- Applied continuous zebra row styling.
+- Reestruturado o layout da lista com colunas fixas.
+- Alinhadas as informacoes de documentos e acoes.
+- Aplicada visualizacao continua em zebra.
 
-### Version 2.2 - List Color Application
+### Versao 2.2 - Aplicacao das cores da lista
 
-- Corrected row background application.
-- Improved contrast between alternating rows.
+- Corrigida a aplicacao visual do fundo das linhas.
+- Melhorado o contraste entre linhas alternadas.
 
-### Version 2.1 - Continuous Grid List
+### Versao 2.1 - Lista continua
 
-- Adjusted the list to a continuous horizontal row layout.
-- Removed card-like spacing between documents.
+- Ajustado o layout para uma lista continua.
+- Removido o espacamento tipo card entre documentos.
 
-### Version 2.0 - Horizontal Separation
+### Versao 2.0 - Separacao horizontal
 
-- Improved visual separation between PDF rows.
-- Preserved selection and move highlights.
+- Melhorada a separacao visual entre linhas.
+- Mantidos os destaques de selecao e movimentacao.
 
-### Version 1.9 - Light Grid List
+### Versao 1.9 - Lista em grade leve
 
-- Added a visual column header.
-- Applied linear alternating rows.
+- Adicionado cabecalho visual de colunas.
+- Aplicadas linhas alternadas com contraste leve.
 
-### Version 1.8 - More Readable Document List
+### Versao 1.8 - Lista mais legivel
 
-- Added a PDF icon to each row.
-- Added a temporary moved-state highlight.
+- Adicionado icone de PDF em cada linha.
+- Adicionado destaque temporario para item movido.
 
-### Version 1.7 - Enlarged Preview
+### Versao 1.7 - Preview ampliado
 
-- Added enlarged preview dialog.
-- Added scroll and zoom controls.
+- Adicionado popup de visualizacao ampliada.
+- Adicionados scroll e controles de zoom.
 
-### Version 1.6 - Modular Foundation
+### Versao 1.6 - Fundacao modular
 
-- Added `app/`, `modules/`, `integrations/` and `ui/components/`.
-- Centralized asset path resolution.
-- Moved product identity and version metadata to `app.version`.
-- Prepared environment-based provider credential reads.
+- Adicionados `app/`, `modules/`, `integrations/` e `ui/components/`.
+- Centralizada a resolucao de assets.
+- Movida a identidade e a versao para `app.version`.
+- Preparada a leitura de credenciais por variaveis de ambiente.
 
-### Version 1.5 - Planned AI and OCR Providers
+### Versao 1.5 - Preparacao para IA e OCR
 
-- Added planned AI and OCR capability manifests.
-- Added provider icons and environment variable names.
-- Added disabled/planned UI entries for AI and OCR.
+- Adicionados manifestos de capacidades futuras de IA e OCR.
+- Adicionados provedores planejados e variaveis de ambiente relacionadas.
+- Adicionadas entradas de interface para IA e OCR como recursos planejados.
 
-### Version 1.4 - Add PDF Button Icon
+### Versao 1.4 - Icone no botao de adicionar
 
-- Added the PDF icon to the `Adicionar PDFs` button.
+- Adicionado o icone de PDF ao botao `Adicionar PDFs`.
 
-### Version 1.3 - PDF Visual Identity
+### Versao 1.3 - Identidade visual do PDF
 
-- Added `assets/pdf_badge.svg`.
-- Updated the application identity assets.
-- Updated build asset packaging.
+- Adicionado `assets/pdf_badge.svg`.
+- Atualizados os assets de identidade visual.
+- Atualizado o empacotamento de assets no build.
 
-### Version 1.2 - Cleaner Interface
+### Versao 1.2 - Interface mais limpa
 
-- Removed decorative icons from several UI areas.
-- Simplified action button labels.
+- Removidos icones decorativos de partes da interface.
+- Simplificados os rotulos de acoes.
 
-### Version 1.1 - Axiel PDF Identity
+### Versao 1.1 - Identidade Axiel PDF
 
-- Set the product name to `Axiel PDF`.
-- Updated the application title, organization and default combined PDF filename.
+- Definido o nome oficial `Axiel PDF`.
+- Atualizados o titulo da aplicacao, a organizacao e o nome padrao do PDF combinado.
 
-### Version 1.0 - Audited Base
+### Versao 1.0 - Base auditada
 
-- Desktop PyQt6 app for merging PDFs.
-- PDF add, remove, visual rename and button-based ordering.
-- First-page preview.
-- Page count and file size display.
-- Merge through `pikepdf` in a worker thread.
-- Progress bar during merge.
+- Aplicativo desktop PyQt6 para juntar PDFs.
+- Adicao, remocao, renomeacao visual e ordenacao por botoes.
+- Preview da primeira pagina.
+- Contagem de paginas e tamanho de arquivo.
+- Merge por `pikepdf` em worker separado.
+- Barra de progresso durante o merge.

@@ -1,16 +1,27 @@
-# Política de Segurança
+# Politica de Seguranca
 
-A segurança é importante para o Axiel PDF, porque o projeto trabalha com arquivos PDF, OCR, processamento de documentos e automações locais.
+A seguranca e importante para o Axiel PDF porque o projeto lida com arquivos locais, fluxos documentais e recursos planejados de OCR e IA.
 
-Por favor, não reporte vulnerabilidades de segurança em issues públicas do GitHub.
+Nao reporte vulnerabilidades por meio de issues publicas do GitHub.
 
----
+## Como reportar
 
-## Como reportar uma vulnerabilidade
+Se voce identificar uma vulnerabilidade ou um comportamento com risco de seguranca, entre em contato de forma privada.
 
-Se você encontrar um problema de segurança, entre em contato com o mantenedor de forma privada.
-
-Contato temporário:
+Contato atual:
 
 ```text
-axielats@gmail.com
+axiel.ats@gmail.com
+```
+
+## O que informar
+
+- Descricao objetiva do problema
+- Passos para reproduzir
+- Impacto esperado
+- Arquivos ou fluxos afetados
+- Sugestao de mitigacao, se houver
+
+## Escopo atual
+
+O projeto atual trabalha localmente com arquivos PDF. Antes de compartilhar exemplos, capturas de tela ou logs, revise se eles nao expoem documentos, caminhos privados ou dados pessoais.

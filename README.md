@@ -1,41 +1,53 @@
 # Axiel PDF
 
-Axiel PDF is a local desktop application for combining PDF files.
+**Automacao inteligente para PDFs em grande volume.**
 
-The current implementation is written in Python with PyQt6. Selected files stay on the user's machine; the app does not send documents to external services.
+O Axiel PDF e uma ferramenta criada para processar, organizar e unir arquivos PDF com apoio de automacao, OCR e IA.
+
+O foco do projeto e reduzir trabalho manual em fluxos documentais. A base atual do aplicativo ja permite uniao local de PDFs, organizacao da lista e pre-visualizacao. Recursos de OCR, renomeacao inteligente, deteccao de duplicidade e analise textual fazem parte da evolucao planejada.
+
+## Recursos atuais
+
+- Uniao local de PDFs pela interface desktop
+- Adicao de arquivos por seletor
+- Adicao de arquivos por drag and drop externo
+- Reordenacao por botoes
+- Renomeacao visual do rotulo na lista
+- Remocao de itens
+- Pre-visualizacao da primeira pagina
+- Visualizacao ampliada com zoom
+
+## Recursos planejados
+
+- OCR para extracao de texto
+- Renomeacao inteligente com IA
+- Deteccao de PDFs duplicados
+- Identificacao de paginas em branco
+- Extracao e analise de texto
+- Validacao textual em fluxos documentais
+
+## Uso profissional
+
+O Axiel PDF pode servir como base para fluxos personalizados de empresas e profissionais que lidam com muitos documentos, como setores administrativos, juridico, contabilidade, RH, operacoes internas e arquivos digitais.
+
+## Solucoes sob demanda
+
+A Axiel pode desenvolver fluxos personalizados, integracoes e automacoes documentais conforme a necessidade de cada empresa ou profissional.
+
+Para projetos comerciais, customizacoes ou parcerias, utilize o canal oficial informado no perfil da Axiel no GitHub.
 
 ## Status
 
-Current app version: `1.0.2`.
+Versao atual da aplicacao: `1.0.2`.
 
-AI and OCR entries are present in the interface as planned capabilities. They do not call external APIs or process documents yet.
+O projeto esta em desenvolvimento inicial. A interface atual e funcional para o fluxo principal de uniao de PDFs. OCR e IA aparecem na interface como capacidades planejadas e ainda nao executam processamento externo.
 
-## Current Features
+## Requisitos
 
-- Add PDFs through a file picker.
-- Add PDFs by external drag and drop.
-- Reorder documents with buttons.
-- Rename the label shown in the list.
-- Remove documents from the list.
-- Preview the first page of a selected PDF.
-- Open an enlarged preview with zoom.
-- Merge PDFs with progress feedback.
+- Python 3.11 ou superior
+- Dependencias listadas em `requirements.txt`
 
-## Planned Capabilities
-
-- OCR text extraction.
-- AI-assisted organization and renaming.
-- Duplicate and blank-page detection.
-- Document intelligence workflows.
-
-See `ROADMAP.md` for the broader project direction.
-
-## Requirements
-
-- Python 3.11 or newer.
-- Dependencies listed in `requirements.txt`.
-
-## Install
+## Instalacao
 
 ```powershell
 python -m venv .venv
@@ -43,7 +55,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## Run
+## Como rodar
 
 ```powershell
 python main.py
@@ -51,36 +63,37 @@ python main.py
 
 ## Build
 
-`build.sh` uses PyInstaller to create a desktop executable:
+O script `build.sh` usa PyInstaller para gerar um executavel desktop:
 
 ```bash
 ./build.sh
 ```
 
-The executable is created in `dist/`.
+O executavel e criado em `dist/`.
 
-## Project Structure
+## Estrutura do projeto
 
 ```text
-app/           bootstrap, paths, configuration and version
-core/          PDF reading, preview and merge logic
-ui/            PyQt6 interface
-ui/components/ reusable UI components
-modules/       manifests for current and planned capabilities
-integrations/  planned provider registry
-assets/        images and icons
+app/           bootstrap, paths, configuracao e versao
+core/          leitura, preview e uniao de PDFs
+ui/            interface PyQt6
+ui/components/ componentes reutilizaveis
+modules/       manifestos de recursos atuais e planejados
+integrations/  registro de provedores planejados
+assets/        imagens e icones
 ```
 
-## Privacy
+## Privacidade
 
-Axiel PDF works with local files. Before publishing logs, screenshots or examples, check that they do not contain personal data, document content or private file paths.
+O Axiel PDF trabalha com arquivos locais. Sempre revise logs, capturas de tela e exemplos antes de publicar qualquer material que possa expor caminhos, documentos ou dados pessoais.
 
-## License
+## Sobre a Axiel
 
-This project is licensed under the GNU General Public License v3.0. See `LICENSE` for the full terms.
+A Axiel cria ferramentas praticas, automacoes inteligentes e solucoes personalizadas para empresas e profissionais que precisam otimizar processos, organizar documentos, automatizar tarefas e aplicar IA no dia a dia.
 
-## About Axiel
+Frase institucional:
+Ferramentas, automacoes e solucoes com IA para fluxos reais de trabalho.
 
-Axiel is an open source ecosystem for AI, automation, bots, document workflows and developer tools.
+## Licenca
 
-Main profile: [axielhq](https://github.com/axielhq)
+Este projeto usa a GNU General Public License v3.0. Consulte `LICENSE` para os termos completos.
