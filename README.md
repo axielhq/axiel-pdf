@@ -1,45 +1,34 @@
-# Axiel PDF
+# 🚀 Axiel PDF v1.0.2 - Automacao inteligente para PDFs em grande volume
 
-**Automacao inteligente para PDFs em grande volume.**
+![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyQt6](https://img.shields.io/badge/PyQt6-Desktop-41CD52?style=flat-square&logo=qt&logoColor=white)
+![PyMuPDF](https://img.shields.io/badge/PyMuPDF-Preview-orange?style=flat-square)
+![pikepdf](https://img.shields.io/badge/pikepdf-Merge-4B5563?style=flat-square)
+![GPLv3](https://img.shields.io/badge/License-GPLv3-blue?style=flat-square)
 
-Aplicativo desktop para unir, organizar e visualizar arquivos PDF com foco em fluxos documentais reais. O projeto foi criado para reduzir trabalho manual em operacoes que lidam com muitos arquivos e precisa manter processamento local como base do fluxo.
+Aplicativo desktop para unir, organizar e visualizar arquivos PDF com foco em fluxos documentais reais.
 
-O estado atual do sistema cobre bem a etapa principal de uniao de PDFs. Recursos como OCR, renomeacao inteligente, deteccao de duplicidade e analise textual fazem parte da evolucao planejada e ainda nao estao entregues no fluxo operacional.
+Base local para produtividade documental, com interface PyQt6 e evolucao planejada para OCR, automacao e analise de texto.
 
-## Visao geral
+🎯 [Recursos atuais](#-recursos-atuais) • ✨ [Destaques da versao atual](#-destaques-da-versao-atual) • 🛠️ [Instalacao](#-instalacao) • 📚 [Documentacao](#-documentacao) • 🔒 [Privacidade](#-privacidade)
 
-- Aplicativo local em Python com interface PyQt6
-- Fluxo atual focado em uniao e organizacao de PDFs
-- Pre-visualizacao da primeira pagina antes do merge
-- Base preparada para evolucao com OCR e automacoes documentais
-- Projeto mantido pela Axiel como ferramenta pratica para produtividade documental
+---
 
-## Navegacao rapida
+## ✨ Destaques da versao atual
 
-- [Recursos atuais](#recursos-atuais)
-- [Recursos em evolucao](#recursos-em-evolucao)
-- [Uso profissional](#uso-profissional)
-- [Instalacao](#instalacao)
-- [Como rodar](#como-rodar)
-- [Estrutura do projeto](#estrutura-do-projeto)
-- [Privacidade](#privacidade)
-- [Sobre a Axiel](#sobre-a-axiel)
+- ✅ Uniao local de PDFs pela interface desktop
+- ✅ Organizacao de arquivos com reordenacao por botoes
+- ✅ Pre-visualizacao da primeira pagina antes do merge
+- ✅ Visualizacao ampliada com zoom
+- ✅ Fluxo local sem dependencia de servico web
 
-## Onde o Axiel PDF ajuda
+## 📋 Sobre o projeto
 
-O Axiel PDF faz sentido em ambientes que precisam lidar com grande volume de documentos, consolidacao de arquivos e conferencias rapidas antes de gerar um PDF final.
+O Axiel PDF foi criado para reduzir trabalho manual em operacoes que lidam com muitos documentos. O foco atual do sistema e consolidar arquivos PDF com rapidez, manter a organizacao visual da lista e permitir uma conferencia basica antes da geracao final.
 
-Exemplos de uso:
+Recursos como OCR, renomeacao inteligente, deteccao de duplicidade e analise textual fazem parte da direcao do produto, mas ainda nao estao entregues no fluxo operacional.
 
-- setores administrativos
-- escritorio juridico
-- contabilidade
-- RH
-- operacoes internas
-- arquivos digitais
-- fluxos documentais personalizados
-
-## Recursos atuais
+## 🎯 Recursos atuais
 
 - Uniao local de PDFs pela interface desktop
 - Adicao de arquivos por seletor
@@ -51,9 +40,9 @@ Exemplos de uso:
 - Visualizacao ampliada com zoom
 - Tela inicial institucional e secao sobre
 
-## Recursos em evolucao
+## 🧭 Recursos em evolucao
 
-Os itens abaixo fazem parte da direcao do produto, mas nao devem ser tratados como recursos entregues no estado atual:
+Os itens abaixo fazem parte da evolucao planejada do projeto:
 
 - OCR para extracao de texto
 - Renomeacao inteligente com IA
@@ -62,28 +51,34 @@ Os itens abaixo fazem parte da direcao do produto, mas nao devem ser tratados co
 - Extracao e analise de texto
 - Validacao textual em fluxos documentais
 
-## Uso profissional
+## 💼 Uso profissional
 
 O Axiel PDF pode servir como base para fluxos personalizados de empresas e profissionais que precisam organizar documentos, unir arquivos em lote e preparar uma esteira documental mais eficiente.
 
-Ele tambem pode funcionar como ponto de partida para automacoes maiores envolvendo OCR, classificacao documental, organizacao de arquivos e integracoes sob demanda.
+Exemplos de uso:
 
-## Status
+- setores administrativos
+- escritorio juridico
+- contabilidade
+- RH
+- operacoes internas
+- arquivos digitais
+- fluxos documentais personalizados
+
+## 📌 Status
 
 Versao atual da aplicacao: `1.0.2`
-
-Estado do projeto:
 
 - funcional para o fluxo principal de uniao de PDFs
 - interface desktop pronta para uso local
 - OCR e IA presentes apenas como direcao de evolucao
 
-## Requisitos
+## 🛠️ Requisitos
 
 - Python 3.11 ou superior
 - Dependencias listadas em `requirements.txt`
 
-## Instalacao
+## 🛠️ Instalacao
 
 ```powershell
 python -m venv .venv
@@ -91,13 +86,13 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## Como rodar
+## ▶️ Como rodar
 
 ```powershell
 python main.py
 ```
 
-## Build
+## 📦 Build
 
 O script `build.sh` usa PyInstaller para gerar um executavel desktop:
 
@@ -107,7 +102,14 @@ O script `build.sh` usa PyInstaller para gerar um executavel desktop:
 
 O executavel e criado em `dist/`.
 
-## Estrutura do projeto
+## 📚 Documentacao
+
+- [CHANGELOG.md](CHANGELOG.md)
+- [ROADMAP.md](ROADMAP.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [SECURITY.md](SECURITY.md)
+
+## 🧱 Estrutura do projeto
 
 ```text
 app/           bootstrap, paths, configuracao e versao
@@ -119,22 +121,22 @@ integrations/  registro de provedores planejados
 assets/        imagens e icones
 ```
 
-## Solucoes sob demanda
+## 🤝 Solucoes sob demanda
 
 A Axiel pode desenvolver fluxos personalizados, integracoes e automacoes documentais conforme a necessidade de cada empresa ou profissional.
 
 Para projetos comerciais, customizacoes ou parcerias, utilize o canal oficial informado no perfil da Axiel no GitHub.
 
-## Privacidade
+## 🔒 Privacidade
 
 O Axiel PDF trabalha com arquivos locais. Sempre revise logs, capturas de tela e exemplos antes de publicar qualquer material que possa expor caminhos, documentos ou dados pessoais.
 
-## Sobre a Axiel
+## 🏷️ Sobre a Axiel
 
 A Axiel cria ferramentas praticas, automacoes inteligentes e solucoes personalizadas para empresas e profissionais que precisam otimizar processos, organizar documentos, automatizar tarefas e aplicar IA no dia a dia.
 
 **Ferramentas, automacoes e solucoes com IA para fluxos reais de trabalho.**
 
-## Licenca
+## 📄 Licenca
 
 Este projeto usa a GNU General Public License v3.0. Consulte `LICENSE` para os termos completos.
